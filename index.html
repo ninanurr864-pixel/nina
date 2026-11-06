@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portofolio Nina Nur Ngalimah</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== LATAR: EMOJI MELAYANG ===== -->
+<div class="latar" aria-hidden="true">
+  <span style="--x:5%;--t:16s;--d:-2s">🍯</span>
+  <span style="--x:18%;--t:20s;--d:-9s;--s:1.3rem">🤎</span>
+  <span style="--x:32%;--t:18s;--d:-5s">🐝</span>
+  <span style="--x:47%;--t:22s;--d:-13s;--s:1.4rem">⭐</span>
+  <span style="--x:61%;--t:17s;--d:-7s">🧸</span>
+  <span style="--x:74%;--t:21s;--d:-1s;--s:1.3rem">🤎</span>
+  <span style="--x:86%;--t:19s;--d:-11s">🍯</span>
+  <span style="--x:93%;--t:23s;--d:-15s;--s:1.4rem">🐝</span>
+</div>
+
+<!-- ============ BAGIAN PALING ATAS: KHUSUS FOTO ============ -->
+<header class="hero">
+  <div class="bingkai">
+    <div class="foto">
+      <img alt="Foto Nina Nur Ngalimah" src="nina.jpeg">
+    </div>
+    <span class="kilau k1">✨</span><span class="kilau k2">✨</span><span class="kilau k3">✨</span>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- ============ NAMA & MENU ============ -->
+<div class="perkenalan">
+  <h1>Nina Nur Ngalimah</h1>
+  <p class="sapa"><span class="emo">🧸</span> Halo, selamat datang di rumah kecilku! <span class="emo" style="animation-delay:-.7s">🍯</span></p>
+  <nav class="menu" aria-label="Menu">
+    <a href="#tentang">Tentang Saya</a>
+    <a href="#proyek">Mini Project</a>
+  </nav>
+</div>
+
+<!-- ============ TENTANG SAYA ============ -->
+<section id="tentang">
+  <div class="judul"><h2><span class="emo">🧸</span> Tentang Saya</h2></div>
+  <div class="tentang reveal">
+    <p class="pembuka">Hai, aku Nina! <span class="lambai-emo">👋</span> Senang sekali kamu mampir ke sini 🤎</p>
+    <p>Namaku <strong>Nina Nur Ngalimah</strong>, siswi <strong>SMK Ma'arif 1 Nanggulan</strong> yang sekarang sedang menimba ilmu di kelas <strong>Gamelab Indonesia</strong>. Di sini aku belajar mengubah ide-ide kecil di kepala menjadi sesuatu yang bisa dilihat, disentuh, dan dimainkan.</p>
+    <p>Bagiku, menulis kode itu seperti membuat kue: butuh ketelitian, sedikit kesabaran, dan banyak rasa penasaran. Dengan HTML dan CSS, aku merangkai warna, bentuk, dan gerakan sampai halaman kosong berubah menjadi dunia mungil yang hangat, semanis madu dan selembut boneka beruang.</p>
+    <div class="sifat">
+      <span style="--d:0s">🎨 Kreatif</span>
+      <span style="--d:-.5s">📚 Suka belajar</span>
+      <span style="--d:-1s">💡 Penuh ide</span>
+      <span style="--d:-1.5s">🌱 Terus bertumbuh</span>
+    </div>
+    <div class="kutip">“Pelan-pelan juga tidak apa-apa, yang penting terus bertumbuh, selembut dan sekuat beruang kecil.” 🐻</div>
+  </div>
+</section>
+
+<!-- ============ 3 MINI PROJECT ============ -->
+<section id="proyek">
+  <div class="judul">
+    <h2><span class="emo">🍯</span> Mini Project Game</h2>
+    <p>Tiga game mungil buatan HTML &amp; CSS saja. Ayo coba satu per satu!</p>
+  </div>
+
+  <!-- PROJECT 1: RAWAT TEDDY -->
+  <article class="proyek rawat reveal">
+    <header>
+      <span class="lencana">Project 1</span>
+      <h3>Rawat Teddy</h3>
+      <p>Teddy hidup lho! Pilih kegiatan, lalu lihat dia bergerak.</p>
+    </header>
+    <form>
+      <input class="sembunyi" type="radio" name="aksi" id="r1">
+      <input class="sembunyi" type="radio" name="aksi" id="r2">
+      <input class="sembunyi" type="radio" name="aksi" id="r3">
+      <input class="sembunyi" type="radio" name="aksi" id="r4">
+      <div class="rawat-isi">
+        <div class="panggung">
+          <div class="tw">
+            <div class="teddy" role="img" aria-label="Boneka beruang Teddy">
+              <span class="ear l"></span><span class="ear r"></span>
+              <span class="head"></span>
+              <span class="pipi a"></span><span class="pipi b"></span>
+              <span class="mulut"></span>
+              <span class="mata a"></span><span class="mata b"></span>
+              <span class="hidung"></span>
+            </div>
+            <span class="efek snack">🍯</span>
+            <span class="efek nada">🎵</span>
+            <span class="efek zzz">💤</span>
+          </div>
+        </div>
+        <div class="pilih">
+          <label for="r1">🍯 Kasih makan</label>
+          <label for="r2">🎵 Ajak joget</label>
+          <label for="r3">😴 Waktunya tidur</label>
+          <label for="r4">🤸 Ajak lompat</label>
+        </div>
+      </div>
+      <p class="status">
+        <span class="s0">Teddy lagi santai, ayo ajak main ✨</span>
+        <span class="s1">Nyam nyam, madunya enak sekali! 🍯</span>
+        <span class="s2">Teddy lagi joget, ikut goyang yuk! 🎶</span>
+        <span class="s3">Pssst... Teddy sudah tidur 💤</span>
+        <span class="s4">Hop hop hop! Teddy lompat tinggi! 🤸</span>
+      </p>
+      <button class="tombol" type="reset">Istirahat</button>
+    </form>
+  </article>
+
+  <!-- PROJECT 2: TANGKAP TEDDY -->
+  <article class="proyek g2 reveal">
+    <header>
+      <span class="lencana">Project 2</span>
+      <h3>Tangkap Teddy</h3>
+      <p>Teddy muncul dan sembunyi dari lubang. Ketuk dia saat muncul sebelum kabur!</p>
+    </header>
+    <form>
+      <div class="lubang-grid">
+        <div class="lubang"><input class="sembunyi" type="checkbox" id="t1"><label for="t1"><span class="beruang" style="--d:0s">🐻</span><span class="bintang">⭐</span></label></div>
+        <div class="lubang"><input class="sembunyi" type="checkbox" id="t2"><label for="t2"><span class="beruang" style="--d:-1.2s">🧸</span><span class="bintang">⭐</span></label></div>
+        <div class="lubang"><input class="sembunyi" type="checkbox" id="t3"><label for="t3"><span class="beruang" style="--d:-2.1s">🐻</span><span class="bintang">⭐</span></label></div>
+        <div class="lubang"><input class="sembunyi" type="checkbox" id="t4"><label for="t4"><span class="beruang" style="--d:-.6s">🧸</span><span class="bintang">⭐</span></label></div>
+        <div class="lubang"><input class="sembunyi" type="checkbox" id="t5"><label for="t5"><span class="beruang" style="--d:-1.7s">🐻</span><span class="bintang">⭐</span></label></div>
+        <div class="lubang"><input class="sembunyi" type="checkbox" id="t6"><label for="t6"><span class="beruang" style="--d:-2.6s">🧸</span><span class="bintang">⭐</span></label></div>
+      </div>
+      <p class="skor">Tertangkap: <b></b> / 6</p>
+      <p class="menang">🎉 Hebat! Semua Teddy berhasil kamu tangkap! 🎉</p>
+      <button class="tombol" type="reset">Main lagi</button>
+    </form>
+  </article>
+
+  <!-- PROJECT 3: POP BALON -->
+  <article class="proyek g3 reveal">
+    <header>
+      <span class="lencana">Project 3</span>
+      <h3>Pop Balon Beruang</h3>
+      <p>Balon-balon imut terbang ke atas. Ketuk untuk memecahkan semuanya!</p>
+    </header>
+    <form>
+      <div class="langit">
+        <input class="sembunyi" type="checkbox" id="b1"><label for="b1" style="--x:6%;--t:7s;--d:-1s;--w:#f4b6b0"><span class="bal">•ᴗ•</span></label>
+        <input class="sembunyi" type="checkbox" id="b2"><label for="b2" style="--x:22%;--t:9s;--d:-5s;--w:#f2b84b"><span class="bal">•ᴗ•</span></label>
+        <input class="sembunyi" type="checkbox" id="b3"><label for="b3" style="--x:38%;--t:6.5s;--d:-3s;--w:#d9a877"><span class="bal">•ᴗ•</span></label>
+        <input class="sembunyi" type="checkbox" id="b4"><label for="b4" style="--x:54%;--t:8s;--d:-6.5s;--w:#f4b6b0"><span class="bal">•ᴗ•</span></label>
+        <input class="sembunyi" type="checkbox" id="b5"><label for="b5" style="--x:70%;--t:7.5s;--d:-2s;--w:#f2b84b"><span class="bal">•ᴗ•</span></label>
+        <input class="sembunyi" type="checkbox" id="b6"><label for="b6" style="--x:84%;--t:9.5s;--d:-4s;--w:#d9a877"><span class="bal">•ᴗ•</span></label>
+      </div>
+      <p class="skor" style="margin-top:14px">Balon pecah: <b></b> / 6</p>
+      <p class="menang">🎈 Yeay! Semua balon sudah pecah! 🎈</p>
+      <button class="tombol" type="reset">Tiup balon lagi</button>
+    </form>
+  </article>
+</section>
+
+<!-- ============ PENUTUP ============ -->
+<section class="penutup">
+  <div class="judul"><h2><span class="emo">💌</span> Sampai Jumpa!</h2></div>
+  <div class="reveal">
+    <div class="teddy" role="img" aria-label="Boneka beruang melambaikan tangan">
+      <span class="ear l"></span><span class="ear r"></span>
+      <span class="head"></span>
+      <span class="pipi a"></span><span class="pipi b"></span>
+      <span class="mulut"></span>
+      <span class="mata a"></span><span class="mata b"></span>
+      <span class="hidung"></span>
+      <span class="tangan"></span>
+    </div>
+    <div class="gelembung">
+      <p class="ketik">Terima kasih sudah mampir ke duniaku! 🤎</p>
+    </div>
+    <div class="pesan-akhir">
+      <p>Semua yang kamu lihat di sini dibuat dengan HTML dan CSS, dari baris pertama sampai beruang yang melambai itu.</p>
+      <p>Ini baru langkah awalku, dan akan ada lebih banyak karya manis di depan sana. Sampai ketemu di proyek berikutnya ya! 🧸</p>
+    </div>
+  </div>
+  <div class="pita" aria-hidden="true">
+    <div>
+      <span>🍯 Terus belajar</span><span>🧸 Terus berkarya</span><span>⭐ Terus tersenyum</span><span>🤎 Terus bertumbuh</span>
+      <span>🍯 Terus belajar</span><span>🧸 Terus berkarya</span><span>⭐ Terus tersenyum</span><span>🤎 Terus bertumbuh</span>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>Dibuat dengan <span class="detak">🤎</span> oleh Nina Nur Ngalimah · Kelas Gamelab Indonesia</footer>
+
+</body>
+</html>
